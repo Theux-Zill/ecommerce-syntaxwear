@@ -4,7 +4,7 @@ body {
 }
 
 main {
-    padding: 2.5rem 0;
+    padding: 2.5rem 0 2.5rem;
     max-width: 1360px;
     margin: 0 auto;
 }
@@ -35,4 +35,9 @@ main {
     background-color: #6329a2;
     color: #fff;
     border-color: #6329a2;
+}
+.footer-bottom{
+    font-size: 1.25rem;
+    text-align: center;
+    padding: 20px 0;
 }
