@@ -39,3 +39,26 @@
     display: flex;
     gap: 16px;
 }
+@media (max-width: 1280px) {
+    .hero-section{
+    height: 660px;
+    background-image: url(../../img/banners/hero-mobile.jpg);
+    }
+    .hero-overlay {
+        padding: 0;
+        justify-content: center;
+    }
+    .hero-content .hero-title{
+        font-size: 1.5rem;
+    }
+    .hero-content .hero-subtitle{
+        font-size: 1.5rem;
+    }   
+    .hero-content {
+        max-width: 330px;
+        padding: 0 auto;
+    }
+    .btn {
+        font-size: 1.2rem;
+    }
+}

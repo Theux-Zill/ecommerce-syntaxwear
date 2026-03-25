@@ -68,3 +68,21 @@
 .footer-social li a:hover img{
     opacity: 0.7;
 }
+@media (max-width: 768px) {
+    .footer-content {
+        flex-direction: column;
+        gap: 2rem;
+        padding: 2rem 1rem;
+    }
+    .footer-links ul {
+        flex-direction: column;
+        gap: 2rem;
+    }
+    .footer-social ul {
+        gap: 1rem;
+    }
+    .foooter.bottom {
+        font-size: 1rem;
+        padding: 1.5rem 0 1.5rem;
+    }
+}
